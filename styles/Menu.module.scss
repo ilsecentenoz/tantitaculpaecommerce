@@ -1,0 +1,28 @@
+.menu {
+  width: 100%;
+  padding: 25px;
+  position: fixed;
+  bottom: 0px;
+  z-index: 1;
+  background-color: #272727;
+  border-radius: 25px 25px 0px 0px;
+  .items {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: auto;
+    .link {
+      display: grid;
+      img {
+        width: 25px;
+        margin: auto;
+      }
+      small {
+        color: white;
+        padding-top: 5px;
+        font-family: "Gayathri-Thin";
+        letter-spacing: 1px;
+      }
+    }
+  }
+}
